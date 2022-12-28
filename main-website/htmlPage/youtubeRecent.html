@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./websiteTexture/imageTexture/asakizuki-gd.png">
+    <title>My Channel Recent | Asaki Zuki Website</title>
+
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <link rel="stylesheet" href="../../web-font/localFontStyle.css">
+    <link rel="stylesheet" href="../css/youtube-recent.css">
+    <style>
+        body {
+            background-image: linear-gradient(to top, rgb(0, 0, 0, 0.95) 0%, rgb(0, 0, 0, 0.90) 25%, rgb(0, 0, 0, 0.75)), url('https://images3.alphacoders.com/100/1003236.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="startPage">
+        <div class="headerPage">
+            <a href="../../index.html"><button class="headerButton firstButton">Home</button></a><a
+                href="./youtubeRecent.html"><button class="headerButton">My Youtube
+                    Upload</button></a><a href="./libarry.html"><button class="headerButton">Libarry</button></a>
+        </div>
+
+        <div id="asakizuki-ytblist" class="sectionPage">
+            <div class="ChannelSection">
+                <a style="border-bottom: 1px solid #FFF; padding-bottom: 2px; padding-right: 16px; text-align: left;">Asaki
+                    Zuki</a><br>
+
+                <button id="arrowLeftButton" class="arrowButton">&#x3c</button><button id="arrowRightButton"
+                    class="arrowButton" style="right: 0px; transform: translateX(50%);">&#x3e</button>
+
+                <div class="recentUpload">
+                    <div style="transition: 1s;" class="scrollSection">
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script src="../../localCode/localScript.js"></script>
+<script src="../script/asakizuki-youtubechannel.js"></script>
+
+</html>

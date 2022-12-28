@@ -1,0 +1,28 @@
+@font-face {
+    font-family: genshin-impact;
+    src: url(./genshin-impact.font-woff);
+}
+
+@font-face {
+    font-family: Andika;
+    src: url(./ankita/Andika-Regular.ttf)
+}
+
+@font-face {
+    font-family: Andika;
+    font-weight: 500;
+    src: url(./ankita/Andika-Bold.ttf)
+}
+
+@font-face {
+    font-family: Andika;
+    font-weight: 500;
+    font-style: italic;
+    src: url(./ankita/Andika-BoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Andika;
+    font-style: italic;
+    src: url(./ankita/Andika-Italic.ttf)
+}

@@ -1,0 +1,12 @@
+{
+    "creator": "Asaki Zuki",
+    "gameProfile": {
+        "geometryDash": "AsakiZukiYT"
+    },
+    "createProfile": {
+        "website": "https://asakizuki.github.io/asakizuki/main-website",
+        "youtube": "https://youtube.com/asakizuki",
+        "facebook": "https://facebook.com/main.asakizuki"
+    },
+    "htmlCode": "<div style=\"font-size: 10px; position: relative; left: -5px; width: 100%; text-align: center;\">NewTab Theme Extension made by Asaki Zuki</div><button class=\"creditButton\" id=\"openYTBUrl\"> <img draggable=\"false\" src=\"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=128&url=https://youtube.com\"> <a>Youtube</a> </button> <button class=\"creditButton\" id=\"openFBUrl\"><img draggable=\"false\"src=\"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=128&url=https://facebook.com\"><a style=\"color: #00F;\">Facebook</a></button> <button class=\"creditButton\" id=\"openGiUrl\"><img draggable=\"false\"src=\"https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=128&url=https://github.com\"><a style=\"color: #0F0;\">Website</a></button>"
+}
