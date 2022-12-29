@@ -26,7 +26,7 @@ youtubeFetch = async (ytbURL, elementID) => {
         if (asaCount === 0) { document.getElementById(elementID).getElementsByTagName('button')[0].style.visibility = 'hidden'; } else {
             document.getElementById(elementID).getElementsByTagName('button')[0].style.visibility = 'visible';
         }
-        if (Math.floor((youtube.items.length / 4 - 1)) === asaCount) { document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'hidden'; } else {
+        if (Math.floor((youtube.items.length / 4)) === asaCount) { document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'hidden'; } else {
             document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'visible';
         }
 
@@ -40,7 +40,7 @@ youtubeFetch = async (ytbURL, elementID) => {
         if (asaCount === 0) { document.getElementById(elementID).getElementsByTagName('button')[0].style.visibility = 'hidden'; } else {
             document.getElementById(elementID).getElementsByTagName('button')[0].style.visibility = 'visible';
         }
-        if (Math.floor((youtube.items.length / 4 - 1)) === asaCount) { document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'hidden'; } else {
+        if (Math.floor((youtube.items.length / 4)) === asaCount) { document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'hidden'; } else {
             document.getElementById(elementID).getElementsByTagName('button')[1].style.visibility = 'visible';
         }
         asaGetElement.style.left = `-${asaCount * 672}px`
